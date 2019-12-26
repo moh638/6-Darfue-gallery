@@ -5,12 +5,13 @@ body{
 	font-family: cursive;
 
 
+
 }
 
 .home{
 	width: 100%;
 	height: 600px;
-	background-image: url('../img/1.jpeg');
+	background-image: url('../img/Sudan_Jebel_Marra_Deriba_Lakes_edited.jpg');
 	background-size: cover;
 	overflow: hidden;
 
@@ -46,6 +47,7 @@ body{
 
 .home .best p{
 	color: #fff;
+	direction: rtl;
 }
 
 
@@ -94,18 +96,29 @@ body{
 	text-align: center;
 	padding-top: 7%;
 
+
 }
 .about .about_us h2 , .service .service_us h2{
 	margin: 0;
 	color: #ffff73;
 	padding-bottom: 0;
+	direction: rtl;
 }
 
 .about .about_us p{
 	
 	color: #eee;
 	padding-top: 3%;
-	line-height: 2.5;
+	padding-right: 3%;
+	padding-left: 3%;
+	line-height: 2;
+	direction: rtl;
+	text-align: justify;
+	text-indent: 50px;
+	font-size: 17px;
+	
+	
+
 }
 
 /* service */
@@ -113,7 +126,7 @@ body{
 .service{
 	width: 100%;
 	height: 600px;
-	background-image: url('../img/3.jpeg');
+	background-image: url('../img/m21.png');
 	background-size: cover;
 	overflow: hidden;
 
@@ -129,17 +142,44 @@ body{
 	margin-left:5%;
 	text-align: center;
 	padding-top: 7%;
+	direction: rtl;
+
 }
 
 .service .service_us h2{
 	padding-bottom: 0;
+
 }
 
 .service .service_us p{
 	color: #eee;
 	padding-top: 3%;
 	line-height: 2;
+	text-align: justify;
+	font-weight: bold; 
+	font-size: 19px;
+	padding-right: 2%;
+	padding-left: 2%;
 }
+.service .service_us ul{
+	width: 90%;
+	text-align: justify;
+}
+.service .service_us li{
+	color: #eee;
+	padding-top: 3%;
+	line-height: 2.5;
+/*	font-size: 17px;
+	font-weight: bold;*/
+
+}
+.service .service_us li span{
+
+	font-size: 19px;
+	font-weight: bold;
+
+}
+
 
 /* testimoial */
 .testimonials{
@@ -154,6 +194,8 @@ body{
 	text-align: center;
 	padding-top: 7%;
 	color: #ffff73;
+	direction: rtl;
+
 }
 
 .testimonials .test{
@@ -176,6 +218,9 @@ body{
 	line-height: 1.8;
 	text-align: left;
 	margin: 20px;
+	direction: rtl;
+
+
 }
 
 /* contact */
@@ -203,13 +248,16 @@ body{
 	color: #ffff73;
 	padding-top: 10%;
 	padding-bottom: 5%;
-		
+	direction: rtl;
+	
 
 }
 
 .contact .contact_us form {
 	width: 80%;
 	margin: auto;
+	direction: rtl;
+
 }
 
 .contact .contact_us form input{
@@ -254,7 +302,7 @@ body{
 
 .footer{
 	width: 100%;
-	height: 100px;
+	height: 120px;
 	border-top: 1px solid #ddd;
 	background:rgba(9, 11, 10, 0.51);
 	
@@ -266,7 +314,8 @@ body{
 	text-align: center;
 	font-family: Tahoma;
 	color: #fff;
-	font-weight: bold;
+	direction: rtl;
+
 	
 }
 
