@@ -13,6 +13,8 @@ body{
 	background-image: url('../img/Sudan_Jebel_Marra_Deriba_Lakes_edited.jpg');
 	background-size: cover;
 	overflow: hidden;
+		direction: rtl;
+
 
 }
 
@@ -32,6 +34,8 @@ body{
 	color: #fff;
 	font-size: 20px;
 	text-decoration: none;
+	font-family: 'Changa', sans-serif;
+	font-weight: bold;
 }
 
 
@@ -246,6 +250,8 @@ body{
 	background-size: cover;
 	overflow: hidden;
 
+
+
 }
 
 .contact .contact_us {
@@ -281,7 +287,7 @@ body{
 	background:rgba(0,0,0,0.5);
 	border:0;
 	height: 37px;
-	padding-left: 15px;
+	padding-right: 15px;
 	margin-bottom: 15px;
 	outline: 0;
 	color: #fff;
@@ -291,7 +297,7 @@ body{
 	width: 100%;
 	background:rgba(0,0,0,0.5);
 	border:0;
-	padding-left: 15px;
+	padding-right: 15px;
 	padding-top: 15px;
 	margin-bottom: 15px;
 	color: #fff;
